@@ -1,7 +1,7 @@
 **1. Install usercss manager extension:**
    ---------------------------------
 
-   * **[Stylus](https://github.com/openstyles/stylus)**
+   * **[Stylus](https://github.com/openstyles/stylus#releases)**
 
 **2. Click to install usercss:**
    --------------------------------
