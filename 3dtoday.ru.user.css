@@ -1,0 +1,147 @@
+@-moz-document url-prefix("http://3dtoday.ru/") {
+    /* Header */
+
+    div.header_main, div.header_user {
+        margin:0;
+    }
+
+    div.header_main_wr {
+        height: inherit;
+
+    }
+
+    div.logo {
+        padding-top: 10px;
+    }
+
+    div.header_fixed {
+        position: static;
+        height: inherit;
+        margin: 0;
+        padding: 10px 0 5px 0;
+    }
+
+    div.breadcrumbs {
+        padding-bottom: 10px;
+    }
+
+    div.menu_2 {
+        height: inherit !important;
+    }
+
+    /* Navigation column */
+
+    div.site_info, div.rubrics, div.editorial, div.top, div.comments, div.events, div.catalog.models, div.memo-b,
+    div.nav_col div.block_1, div.nav_col div.block_2, div.ads_short_list {
+        border: none;
+        border-left: 1px solid #ddd;
+        margin: 0 !important;
+        padding-top: 10px;
+    }
+
+    div.site_info a {text-decoration: none;}
+
+    div.nav_col h3 {
+        color: #00ade2 !important;
+    }
+
+
+    /* News */
+
+    .tidings_block_item_head {
+        font-size: 1.1em;
+        line-height: normal !important;
+    }
+
+    .tidings_block_briefly_head {
+        font-size: 1em;
+    }
+
+    .tidings_block_briefly li {
+        padding: 10px 0 10px 0 !important;
+    }
+
+    /* Social networks */
+
+    div.fix-social {
+        display: none;
+    }
+
+    /* Misc */
+
+    a.btn {
+        height: 2.2em !important;
+        line-height: 2em !important;
+    }
+
+    a.see_more {
+        height: 1.6em !important;
+        line-height: 1.6em !important;
+        border-radius: 4px !important;
+    }
+
+    h1 {
+        font-size: 1.5em
+    }
+
+    h2, h2.post_list_item_title {
+        font-size: 1.2em;
+        padding:0;
+    }
+
+    h3 {
+        font-size: 1.1em !important;
+    }
+
+    header.category_title, header.category_title_news {
+        height: auto !important;
+    }
+
+    header.category_title.slim h2, header.category_title_news h2 {
+        height: 1.6em;
+        line-height: 1.6em;
+        padding: 0 10px 0 10px;
+        border-radius: 4px;
+    }
+
+    header.category_title h2:after, header.category_title_news h2:after {
+        display: none;
+    }
+
+    div.post_list_item_cat a:before {
+        left: auto !important;
+        right: -7px !important
+    }
+
+    div.post_list_item_see_all {
+        float: right;
+        margin-right: 40px;
+    }
+
+    a.rlink {
+        left: 10px !important ;
+    }
+
+    /* Ads */
+
+    div.block_1, div.block_2, div.banner, div.banner_no_padding {
+        display: none;
+    }
+
+}
+
+@-moz-document regexp("http://3dtoday.ru/.*/") {
+
+    div.main_col {
+        margin: 0 auto;
+    }
+
+    div.new_models_list_bg,
+    div.post_list_short,
+    div.more_posts,
+    div.main_col a[href="#comments"],
+    div.blog_comments>h2 {
+        display: none !important;
+    }
+
+}
