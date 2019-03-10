@@ -4,7 +4,7 @@
 @version        1.0.0
 ==/UserStyle== */
 
-@-moz-document url-prefix("http://3dtoday.ru/") {
+@-moz-document url-prefix("https://3dtoday.ru/") {
     /* Header */
 
     div.header_main, div.header_user {
@@ -136,7 +136,7 @@
 
 }
 
-@-moz-document regexp("http://3dtoday.ru/.*/") {
+@-moz-document regexp("https://3dtoday.ru/.*/") {
 
     div.main_col {
         margin: 0 auto;
