@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           3dtoday.ru
 @namespace      Perlovka/usercss
-@version        1.0.1
+@version        1.0.2
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://3dtoday.ru/") {
@@ -86,6 +86,8 @@
         border-radius: 4px !important;
     }
 
+    a::after, div.post_list_item_like > a {transition: none !important; }
+
     h1 {
         font-size: 1.5em
     }
@@ -113,6 +115,9 @@
     header.category_title h2:after, header.category_title_news h2:after {
         display: none;
     }
+
+    div.post_list_item_img > a {background: transparent;}
+    div.post_list_item_img > a img {display: block; left: inherit; transform: none !important; margin: 0 auto !important;}
 
     div.post_list_item_cat a:before {
         left: auto !important;
