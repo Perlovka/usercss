@@ -5,15 +5,16 @@
 ==/UserStyle== */
 
 @-moz-document domain("pikabu.ru") {
-/* ADS */
-article[data-author-name="pikabu.skidki"],
-article[data-author-name="specials"],
-article[data-author-name="PikabuStudy"],
-article:not([data-author-id]),
-div.ads-placeholder,
-div.sidebar-achievements,
-section.stories-feed__pulse,
-section.recommended-communities
-{
-    display: none !important;
+    /* ADS */
+    article[data-author-name="pikabu.skidki"],
+    article[data-author-name="specials"],
+    article[data-author-name="PikabuStudy"],
+    article:not([data-author-id]),
+    div.ads-placeholder,
+    div.sidebar-achievements,
+    section.stories-feed__pulse,
+    section.recommended-communities
+    {
+        display: none !important;
+    }
 }
