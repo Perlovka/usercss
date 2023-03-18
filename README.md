@@ -9,3 +9,5 @@
    * **[3DToday.ru](https://github.com/Perlovka/usercss/raw/master/3dtoday.ru/global.user.css)**  
       Make site look more compact and eye friendly.
 
+   * **[pikabu.ru](https://github.com/Perlovka/usercss/raw/master/pikabu.ru/global.user.css)**  
+      Remove ADS.
