@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           pikabu.ru
 @namespace      Perlovka/usercss
-@version        1.0.0
+@version        1.0.1
 ==/UserStyle== */
 
 @-moz-document domain("pikabu.ru") {
@@ -11,6 +11,7 @@
     article[data-author-name="PikabuStudy"],
     article:not([data-author-id]),
     div.ads-placeholder,
+    div.player__adfox,
     div.sidebar-achievements,
     section.stories-feed__pulse,
     section.recommended-communities
