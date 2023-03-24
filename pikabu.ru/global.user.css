@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           pikabu.ru
 @namespace      Perlovka/usercss
-@version        1.0.3
+@version        1.0.4
 ==/UserStyle== */
 
 @-moz-document domain("pikabu.ru") {
@@ -14,6 +14,7 @@
     div.app-banner,
     div.player__adfox,
     div.sidebar-achievements,
+    div.sidebar-block_placeholder,
     section.stories-feed__related-stories-adv,
     section.stories-feed__pulse,
     section.recommended-communities
