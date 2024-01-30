@@ -11,3 +11,6 @@
 
    * **[pikabu.ru](https://github.com/Perlovka/usercss/raw/master/pikabu.ru/global.user.css)**  
       Remove ADS.
+
+   * **[dtf.ru](https://github.com/Perlovka/usercss/raw/master/dtf.ru/global.user.css)**  
+      Nord theme. Remove ADS.
