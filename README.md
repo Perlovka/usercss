@@ -6,6 +6,9 @@
 **2. Click to install usercss:**
    --------------------------------
 
+   * **[atlassian.net](https://github.com/Perlovka/usercss/raw/master/atlassian.net/global.user.css)**  
+      Disable AI. Make site look more compact.
+
    * **[3DToday.ru](https://github.com/Perlovka/usercss/raw/master/3dtoday.ru/global.user.css)**  
       Make site look more compact and eye friendly.
 
