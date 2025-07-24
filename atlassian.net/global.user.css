@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           atlassian.net
 @namespace      Perlovka/usercss
-@version        1.0.0
+@version        1.0.1
 ==/UserStyle== */
 
 @-moz-document domain("atlassian.net") {
@@ -9,6 +9,7 @@
     div[data-testid="issue.views.issue-base.foundation.status.improve-issue"],
     div[data-testid="issue.views.issue-base.foundation.status.actions-wrapper"],
     div[data-testid="highlight-actions.ui.popup-target.popup-dialog.popup-wrapper.popup"],
+    span[data-testid="atlassian-navigation.ui.conversation-assistant.app-navigation-ai-mate"],
     button[data-testid="atlassian-intelligence-toolbar-button"] {
         display: none;
     }
